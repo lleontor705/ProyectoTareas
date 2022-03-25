@@ -1,0 +1,10 @@
+
+venv/Scripts/activate
+pip install -r requierements.txt
+
+
+SET FLASK_APP=main.py
+SET FLASK_DEBUG=1
+SET FLASK_ENV=development
+
+flask run
